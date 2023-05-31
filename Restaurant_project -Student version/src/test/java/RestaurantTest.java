@@ -56,6 +56,7 @@ class RestaurantTest {
         int expectedOrderValue = 388;
         assertEquals(expectedOrderValue, restaurant.getOrderValue(itemNames));
     }
+    
     //>>>>>>>>>>>>>>>>>>>>>>>>>>>MENU<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     @Test
     public void adding_item_to_menu_should_increase_menu_size_by_1(){
