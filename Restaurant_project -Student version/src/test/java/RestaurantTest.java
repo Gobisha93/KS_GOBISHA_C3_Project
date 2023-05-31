@@ -52,10 +52,10 @@ class RestaurantTest {
     @Test
     public void calculate_the_selected_order_items_and_display_the_total_amount()
     {
-       List<String> itemNames = Arrays.asList("Sweet corn soup");
-       int expectedAmount = 119;
-       assertEquals(expectedAmount,itemNames.getOrderValue(itemNames));
-
+        List<String> itemNames = Arrays.asList("Sweet corn soup","Vegetable lasagne");
+        int expectedOrderValue = 1;
+        assertEquals(expectedOrderValue, restaurant.getOrderValue(itemNames));
+        fail("Not implemented yet");
     }
     //>>>>>>>>>>>>>>>>>>>>>>>>>>>MENU<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     @Test
